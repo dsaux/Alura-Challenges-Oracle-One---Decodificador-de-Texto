@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge - Desafio 1</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="apresentacao__imagem" src="./assets/a.png" alt="imagen a">
+    </header>
+    <main class="apresentacao">
+        <section1 class="apresentacao__conteudo">
+            <div class="entrada">
+                <h1 class="titulo-destaque">Digite seu texto</h1>
+                <textarea id="textoclaro" name="textoclaro" rows="10" cols="50"></textarea>
+            </div>
+            <div  class="botoes">
+                <div class="apresentacao__links__subtitulo">
+                    <div class="simbolo">!</div>
+                    <div>Apenas letras minúsculas e sem acento.</div> 
+                </div>
+                <div class="apresentacao__links">
+                        <button class="button1" onclick="criptografar()">
+                        Criptografar
+                        </button>
+                        <button class="button2" onclick="descriptografar()">
+                        Descriptografar
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section1>
+        <section2 class="final">
+            <div id="myP1" class="saida"> <img src="./assets/imagem2.png" alt="Imagem nenhuma mesagem encontrada"></div>
+            <div id="myP2" class="mesagem3">
+                <div id="myP3"class="bold">Nenhuma mensagem encontrada</div>
+                <div id="myP4" class="normal">Digite um texto que você deseja criptografar ou descriptografar.</div>
+            </div> 
+        </section2>
+    </main>
+</body>
+</html>
